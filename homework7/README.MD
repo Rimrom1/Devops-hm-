@@ -4,7 +4,7 @@ Usage:
 
 ssh -A -p 3422 root@yoko.ukrtux.com
 
-ssh -A -D8899 -p YOURPORT root@yoko.ukrtux.com
+ssh -A -D8899 -p 3422 root@yoko.ukrtux.com
 
 python3 -m http.server
 
