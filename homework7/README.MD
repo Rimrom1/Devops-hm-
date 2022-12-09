@@ -8,7 +8,7 @@ ssh -A -D8899 -p 3422 root@yoko.ukrtux.com
 
 python3 -m http.server
 
-ssh -R 1YOURPORT:localhost:8000 -p YOURPORT root@yoko.ukrtux.com
+ssh -R 13422:localhost:8000 -p 3422 root@yoko.ukrtux.com
 
 YOURIP:1YOURPORT
 
